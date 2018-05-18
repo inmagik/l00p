@@ -1,0 +1,25 @@
+{
+  "name": "l00p",
+  "version": "1.0.0",
+  "description": "Getting useful loop information while looping",
+  "main": "index.js",
+  "repository": "https://github.com/inmagik/l00p",
+  "author": "Giovanni Fumagalli <giovanni.fumagalli@inmagik.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest",
+    "build:copyfiles": "copyfiles README.MD LICENSE package.json lib",
+    "build:js": "babel src --out-dir lib --ignore __tests__",
+    "build": "rimraf lib && npm run build:js && npm run build:copyfiles"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.7.0",
+    "copyfiles": "^2.0.0",
+    "jest": "^22.4.3",
+    "rimraf": "^2.6.2"
+  }
+}
