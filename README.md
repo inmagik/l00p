@@ -3,6 +3,17 @@ Getting useful loop information while looping.
 
 This package has been created for help mapping items in, just say, React:
 
+## Install
+```
+yarn add l00p
+```
+
+```
+npm install --save l00p
+```
+
+## Usage
+
 Without *l00p*:
 ```js
 ...

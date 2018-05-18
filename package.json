@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "Getting useful loop information while looping",
   "main": "index.js",
+  "keywords": [
+    "react",
+    "map",
+    "loop",
+    "l00p"
+  ],
   "repository": "https://github.com/inmagik/l00p",
   "author": "Giovanni Fumagalli <giovanni.fumagalli@inmagik.com>",
   "license": "MIT",
